@@ -1,0 +1,16 @@
+{
+  "name": "music-database",
+  "sideEffects": false,
+  "main": "index.ts",
+  "dependencies": {
+    "@paralleldrive/cuid2": "^2.2.2",
+    "db": "workspace:*",
+    "radash": "^11.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.6",
+    "eslint": "^8.56.0",
+    "eslint-config-base": "1.0.0",
+    "typescript": "^5.3.3"
+  }
+}

@@ -1,0 +1,27 @@
+{
+	"name": "alpha-db",
+	"type": "module",
+	"devDependencies": {
+		"@types/node": "^20.11.20",
+		"@types/ws": "^8.5.10",
+		"dotenv-cli": "^7.3.0",
+		"drizzle-kit": "^0.20.14",
+		"pg": "^8.11.3",
+		"prisma": "5.10.2",
+		"prisma-generator-drizzle": "0.7.0-487ef8c",
+		"tsx": "^4.7.1",
+		"typescript": "^5.4.2"
+	},
+	"dependencies": {
+		"@paralleldrive/cuid2": "^2.2.2",
+		"@prisma/client": "5.10.2",
+		"@prisma/extension-accelerate": "^0.6.3",
+		"@t3-oss/env-core": "^0.9.2",
+		"bufferutil": "^4.0.8",
+		"drizzle-orm": "^0.29.4",
+		"fp-ts": "^2.16.2",
+		"superjson": "^2.2.1",
+		"utf-8-validate": "^6.0.3",
+		"zod": "^3.22.4"
+	}
+}

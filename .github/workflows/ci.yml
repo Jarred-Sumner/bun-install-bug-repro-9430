@@ -1,0 +1,15 @@
+name: ci
+
+on:
+  push:
+    branches: ['*']
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v1
+        with: 
+          bun-version: '1.0.30'
+      - run: bun install
