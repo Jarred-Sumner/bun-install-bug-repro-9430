@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: oven-sh/setup-bun@v1
-        with: 
-          bun-version: 'canary'
-      - run: bun install --verbose
+      - run: |
+          wget "https://github.com/Jarred-Sumner/bun-install-bug-repro-9430/releases/download/asdasfasd/bun"
+          chmod +x bun
+          ./bun install --verbose
