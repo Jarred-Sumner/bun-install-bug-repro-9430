@@ -13,4 +13,4 @@ jobs:
       - uses: oven-sh/setup-bun@v1
         with: 
           bun-version: 'canary'
-      - run: bun install
+      - run: bun install --verbose
